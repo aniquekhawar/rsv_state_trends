@@ -3,7 +3,7 @@ name: fetch-state-rsv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 16 * * *' # runs at 8 AM Eastern Every Day
+    - cron: '00 14 * * *' # runs at 9 AM Eastern Every Day
 
 jobs:
   build:
